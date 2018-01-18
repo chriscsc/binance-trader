@@ -52,7 +52,7 @@ public class BinanceBotApplication {
   }
 
   // tick every 3 seconds
-  @Scheduled(fixedRate = 3000)
+  @Scheduled(fixedRate = 1000)
   public void schedule() {
     trader.tick();
   }
